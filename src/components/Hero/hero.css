@@ -1,0 +1,12 @@
+.banner-front {
+  width: 100%;
+  height: 8vh;
+  transform: rotate(-2deg) scale(1.2);
+  background-color: #f8f7f7;
+}
+.banner-back {
+  width: 100%;
+  height: 16vh;
+  background-color: #2d8aa4;
+}
+

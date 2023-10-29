@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Overpass-Regular";
+  src: url("./assets/fonts/Overpass/Overpass-Regular.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Overpass-Semibold";
+  src: url("./assets/fonts/Overpass/Overpass-SemiBold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("./assets/fonts/Poppins/Poppins-Light.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merienda-One";
+  src: url("./assets/fonts/MeriendaOne-Regular.ttf");
+  font-display: swap;
+}
+body {
+  background-color: #f8f7f7;
+}
+
+.separator {
+  flex: 1 1;
+  height: 1px;
+  background-color: #222326;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.pulse-hover {
+  transition: all ease-in-out;
+}
+.pulse-hover:hover {
+  animation: pulse 350ms infinite alternate;
+}
+.watermark {
+  pointer-events: none;
+}
+.underline-on-hover {
+  background-image: linear-gradient(120deg, #f7d06b, #ed7372);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  color: #18728b;
+}
+.underline-on-hover:hover {
+  background-size: 100% 88%;
+  color: black;
+}

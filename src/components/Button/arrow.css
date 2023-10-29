@@ -1,0 +1,8 @@
+/* ARROW ANIMATION */
+.hover-arrow {
+  transition: 250ms all ease;
+}
+
+button {
+  transition: 150ms all ease;
+}

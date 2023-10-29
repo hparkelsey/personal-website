@@ -1,0 +1,12 @@
+.socials {
+  filter: grayscale(80%) contrast(1);
+  background-color: #cdcdcd;
+  color: hsla(0, 0%, 30%, 1);
+  border-radius: 0px 3px 3px 0px;
+  transition: all 0.2s ease-in-out;
+}
+.socials:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  background-color: #2d8aa498;
+}
