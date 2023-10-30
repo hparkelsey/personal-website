@@ -12,7 +12,7 @@ const mySkills = [
   {
     id: 4,
     name: "Tailwind",
-    url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
   },
   {
     id: 5,
